@@ -43,7 +43,6 @@ public class Customer {
 		this.calls.add(callDetails);
 	}
 
-
 	public String toString(){
 		return this.customerId + ": " + this.companyName ;
 	}
