@@ -13,7 +13,6 @@ import org.springframework.stereotype.Repository;
 import com.yrgo.domain.Call;
 import com.yrgo.domain.Customer;
 
-@Repository
 public class CustomerDaoJdbcImpl implements CustomerDao {
 
     @Autowired
